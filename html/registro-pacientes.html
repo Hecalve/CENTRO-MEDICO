@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CENTRO MÉDICO AGUAZU</title>
+    <link rel="stylesheet" href="../styles/Style-CentroM.css">
+</head>
+<body>
+    <header>
+        <h1><b>CENTRO MÉDICO AGUAZUL</b></h1>
+    </header>
+    <main>
+    <form id="registro-pacientes-form" >
+        <h2>Registros de Pacientes</h2>
+        <label for="nombres"><b>Nombres:<span> *</span> </b></label>
+        <input type="text" placeholder="ingrese su nombre" id="nombres" name="nombres" required>
+        <label for="apellidos"><b>Apellidos:<span> *</span></b></label>
+        <input type="text" placeholder=" ingrese su apellido" id="apellidos" name="apellidos" required>
+        <label for=""><b>Número de Cédula:<span> *</span></b></label>
+        <input type="number" placeholder="ingrese su cedula" id="cedula" name="cedula" required>
+        <label for="edad"><b>Edad:<span> *</span></b></label>
+        <input type="number" placeholder="edad" id="edad" name="edad" required>
+        <label for="telefono"><b>Telefono:<span> *</span></b></label>
+        <input type="tel" placeholder="ingrese su telefono" id="telefono" name="telefono" required>
+        <label for="correo"><b>Correo:<span> *</span></b></label>
+        <input type="email" placeholder="ingrese su correo" id="correo" name="correo" required>
+        <label for="especialidad"><b>Especialidad:<span> *</span></b></label>
+        <select name="especialidad" id="especialidad" name="especialidad">
+            <option value="">---seleccione la especialidad</option>
+            <option value="cardiologia">Cardiologia</option>
+            <option value="medicina general">Medicina General</option>
+            <option value="medicina interna">Medicina Interna</option>
+            <option value="dermatologia">Dermatologia</option>
+            <option value="rehabilitación fisica">Rehabilitación Fisica</option>
+            <option value="psicologia">Psicologia</option>
+            <option value="odontologia">Odontologia</option>
+            <option value="radiologia">Radiologia</option>
+            <option value="urologia">Urologia</option>
+            <option value="ortopedia">Ortopedia</option>
+            <option value="cirugia general">Cirugia General</option>
+            <option value="ginecologia">Ginecologia</option>
+            <option value="oncologia">Oncologia</option>
+            <option value="cirugia vascular">Cirugia Vascular</option>
+            <option value="cirugia Plastica">Cirugia Plastica</option>
+        </select>
+        <input type="submit" value="ENVIAR">
+    </form>
+    <div class="boton-container">
+        <a href="../index.html"><input type="button" value="VOLVER"></a>
+    </div>
+</main>
+<footer>
+    <h4>2023</h4>
+    <p>"CUIDAMOS TU SALUD PORQUE SABEMOS QUE ES LO MAS IMPORTANTE"</p>
+</footer>
+<script src="../app.js"></script>
+</body>
+</html>
