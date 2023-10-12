@@ -112,7 +112,7 @@ if (window.location.href.endsWith("registro-medicos.html")) {
     let valorTelefono = telefono.value;
     let valorCorreo = correo.value;
     let valorEspecialidad = especialidad.value;
-    let valorPaciente = paciente.value;
+    
 
     const medico = new Usuario(
       valorNombres,
@@ -121,7 +121,7 @@ if (window.location.href.endsWith("registro-medicos.html")) {
       valorTelefono,
       valorCorreo,
       valorEspecialidad,
-      valorPaciente
+      
     );
 
     medico.consultorio = valorConsultorio;
